@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='sidebar'></div>
+        <div className='upperSide'>
+          <div className="upperSideTop"><img src="" alt="" className="logo" /><span className="brand">Your GenAI Idea</span></div>
+          <button className="midBtn"><img src="" alt="" className="addBtn" />New Chat</button>
+          <div className="upperSideBottom">
+            <button className="query"><img src="" alt="" className="query" />What is Programming?</button>
+            <button className="query"><img src="" alt="" className="query" />What is Diet?</button>
+          </div>
+        </div>
+        <div className='lowerSide'></div>
+      <div className='main'></div>
     </div>
   );
 }
