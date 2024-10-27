@@ -1,8 +1,8 @@
 const { AzureOpenAI } = require("openai");
 
 // You will need to set these environment variables or edit the following values
-const endpoint = "https://atcp-genai-hackathon-002.openai.azure.com/";
-const apiKey = "1445a1639d4c4a0c81fcf99728331bcd";
+const endpoint = "<insert_endpoint>";
+const apiKey = "<insert_key>";
 const apiVersion = "2024-04-01-preview";
 const deployment = "gpt-35-turbo"; //The deployment name for your completions API model. The instruct model is the only new model that supports the legacy API.
 
